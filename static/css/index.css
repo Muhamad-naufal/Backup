@@ -1,0 +1,176 @@
+.navbar{
+    background-color: #e7e6e1;
+}
+#home{
+    width: 100%;
+    height: 100%;
+}
+*{
+    background-color: #e7e6e1;
+}
+footer{
+    background-color: #314e52;
+    Height: 100px;
+    Width: auto;
+}
+@font-face {
+    font-family: "CrimsonPro-ExtraBold";
+    src: url("../font/CrimsonPro-ExtraBold.ttf");
+}
+.navbar{
+    font-family: 'CrimsonPro-ExtraBold';
+}
+h1{
+    margin-right: 200px;
+    font-size: 35px;
+}
+h2{
+    font-family: 'CrimsonPro-ExtraBold';
+    color: #314e52;
+}
+@font-face{
+    font-family: "Lato-Regular";
+    src: url("../font/Lato-Regular.ttf")
+}
+p{
+    font-family: 'Lato-Regular';
+}
+#aman{
+    background-color: white; 
+    margin-left: 160px; 
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+}
+img{
+    position: relative;
+}
+@font-face {
+    font-family: "NunitoSans-Regular";
+    src: url("../font/NunitoSans-Regular.ttf");
+}
+.nav-item{
+    font-family: 'NunitoSans-Regular';
+}
+a{
+    color: black; 
+}
+.collapse navbar-collapse{
+    margin-top: 100px;
+}
+#team{
+    margin-bottom: 100px;
+}
+.carousel-caption {
+    background-color: transparent;
+}
+.tulisan {
+    background-color: transparent;
+    color: black;
+}
+.carousel-indicators {
+    background-color: transparent;
+}
+.about {
+    background-color: white; 
+    text-align: center; 
+    margin-left: 50px; 
+    margin-right: 50px; 
+    margin-top: 30px;
+    font-size: 20px;
+}
+.intro-text{
+    font-size: 20px; 
+    margin-left: 200px; 
+    margin-right: 200px;
+}
+.intro-title{
+    font-size: 90px; 
+    margin-top: 70px; 
+    text-align: center;
+}
+.apex {
+    border-radius: 20px; 
+    background-color: white; 
+    height: 300px;
+}
+.gambar-prediksi{
+    margin-top: 100px; 
+    margin-left: -10px;
+    width: 450;
+    height: 400;
+}
+.prediksi-title{
+    text-align: center; 
+    margin-top: 10px;
+}
+/* Responsif Breakpoint */
+
+/* ukuran tablet */
+@media screen and (max-width: 768px){
+    #aman{
+        margin-left: 70px; 
+        margin-top: 5px;
+        width: 50px;
+        height: 50px;
+    }
+    #home{
+        margin-top: 100px;
+        height: 30%;
+    }
+    .intro-text{
+        font-size: 15px;
+        margin-left: 50px; 
+        margin-right: 50px;
+    }
+    .intro-title{
+        margin-top: 125px;
+        font-size: 50px;
+    }
+    .apex{
+        margin-bottom: 30px;
+        border-radius: 10px; 
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .about{
+        background-color: white; 
+        text-align: center;
+        margin-right: 15px; 
+        margin-top: 15px;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .gambar-prediksi{
+        margin-top: 50px; 
+        margin-left: -60px;
+        width: 350;
+        height: 300;
+    }
+    .prediksi-title{
+        text-align: center; 
+        margin-top: 10px;
+        margin-left: -90px;
+        margin-right: -140px;
+    }
+}
+
+/* ukuran mobile */
+@media screen and (max-width: 576px){
+    #aman{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 2px;
+    }
+    .intro-text{
+        font-size: 10px;
+        margin-left: 50px; 
+        margin-right: 10px;
+    }
+    .intro-title{
+        font-size: 30px;
+    }
+    .about{
+        font-size: 10;
+    }
+}
