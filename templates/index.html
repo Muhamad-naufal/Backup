@@ -11,8 +11,9 @@
 		<title>Credit Syariah</title>
 	</head>
 	<body>
+
 		<!-- NAVBAR -->
-		<nav class="navbar navbar-expand-lg fixed-top">
+		<nav class="navbar navbar-lg fixed-top">
 			<div class="container-fluid">
 				<img src="static/img/logo1.png" alt="Logo Aplikasi" style="width: 50px; height: 50px;" srcset="">
 			  <a class="navbar-brand" href="#">Credit Syariah</a>
@@ -87,7 +88,7 @@
 			</p>
 			<div class="container">
 			  <div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 hola">
 				  <div class="container apex">
 					<img src="{{ url_for('static',filename='img/Aman.png')}}" class="img-fluid" id="aman" alt="Aman">
 					<h4 style="background-color: white; text-align: center; margin-top: 10px;">
@@ -98,7 +99,7 @@
 					</p>
 				  </div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 hola">
 				  <div class="container apex">
 					<img src="{{ url_for('static',filename='img/Akurat.png')}}" class="img-fluid" id="aman" alt="akurat">
 					<h4 style="background-color: white; text-align: center; margin-top: 10px;">
@@ -109,7 +110,7 @@
 					</p>
 				  </div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 hola">
 				  <div class="container apex">
 					<img src="{{ url_for('static',filename='img/Terpercaya.png')}}" class="img-fluid" id="aman" alt="Terpercaya">
 					<h4 style="background-color: white; text-align: center; margin-top: 10px;">
@@ -131,61 +132,68 @@
 			  <div class="row">
 				<div class="col-md-4">
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 kotakan">
 				  <img src="{{ url_for('static',filename='img/gambar predict.png')}}" class="gambar-prediksi" alt="Predict">
 				  <h2 class="prediksi-title">
 					PREDICT YOUR CREDIT
 				  </h2>
-				  <h5 style="text-align: center; font-weight: 100;">
+				  <h5 class="prediksi-text">
 					Submit your data for result
 				  </h5>
-				  <a role="button" class="btn btn-warning" style="color: white; font-weight: 600; font-size: 22px; border-radius: 25px; width: 180px; margin-top: 5px; margin-left: 120px; margin-bottom: 30px;" href="./predict">Predict Now</a>
+				  <a role="button" class="btn btn-warning" style="color: white; font-weight: 600; font-size: 22px; border-radius: 25px; width: 180px;" href="./predict">Predict Now</a>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4 kurang">
 				</div>
 			  </div>
 			</div>
 		  </section>
+		<!-- END PREDIKSI -->
+
+		<!-- TEAM -->
 		  <section id="team">
 			<div class="container" style="height: 20px;"></div>
-			<h2 style="font-size: 90px; margin-top: 70px; text-align: center;">
+			<h2 class="team-title">
 			  TEAM WORK 
 			</h2>
 			<div class="container" style="margin-top: 160px;">
 			  <div class="row">
-				<div class="col-md-3">
-				  <img src="{{ url_for('static',filename='img/Latif.png')}}" style="border-radius: 200px; border-width: 100px; width: 200px; height: 190px;" alt="Latif">
-				  <h5 style="margin-left: 20px; margin-top: 20px;">
+
+				<div class="col-md-3 team-satu">
+				  <img class="gambar-anggota" src="{{ url_for('static',filename='img/Latif.png')}}" alt="Latif">
+				  <h5 class="team-text-1">
 					Abdullah Latif
 				  </h5>
-				  <h6 style="margin-left: 25px; font-weight: 400">
+				  <h6 class="team-cap-1">
 					Project Manager
 				  </h6>
 				</div>
-				<div class="col-md-3">
-				  <img src="{{ url_for('static',filename='img/Dhilah.jpeg')}}" style="border-radius: 200px; border-width: 100px; width: 200px; height: 190px;" alt="Dhilah">
-				  <h5 style="margin-left: 20px; margin-top: 20px;">
+
+				<div class="col-md-3 team-satu">
+				  <img class="gambar-anggota" src="{{ url_for('static',filename='img/Dhilah.jpeg')}}" alt="Dhilah">
+				  <h5 class="team-text-2">
 					Siti Nur Fadhilah
 				  </h5>
-				  <h6 style="margin-left: 80px; font-weight: 400">
+				  <h6 class="team-cap-2">
 					CEO
 				  </h6>
 				</div>
-				<div class="col-md-3">
-				  <img src="{{ url_for('static',filename='img/Ayu.JPG')}}" style="border-radius: 200px; border-width: 100px; width: 200px; height: 190px; margin-left: 25px;" alt="Ayu">
-				  <h5 style="margin-left: 20px; margin-top: 20px;">
+
+				<div class="col-md-3 team-dua">
+				  <img class="gambar-anggota team-tiga" src="{{ url_for('static',filename='img/Ayu.JPG')}}" alt="Ayu">
+				  <h5 class="team-text-3">
 					Tri Mulyani Ayuningtyas
 				  </h5>
-				  <h6 style="margin-left: 50px; font-weight: 400">
+				  <h6 class="team-cap-3">
 					IT Strategy & Planning
 				  </h6>
 				</div>
-				<div class="col-md-3">
-				  <img src="{{ url_for('static',filename='img/Murtadho.jpeg')}}" style="border-radius: 200px; border-width: 100px; width: 200px; height: 190px; margin-left: 45px;" alt="Murtadho">
-				  <h5 style="margin-left: 20px; margin-top: 20px;">
+
+				<div class="col-md-3 team-dua">
+				  <img class="gambar-anggota team-empat" src="{{ url_for('static',filename='img/Murtadho.jpeg')}}" alt="Murtadho">
+				  <h5 class="team-text-4">
 					Mukhammad Ali Murtadho
 				  </h5>
-				  <h6 style="margin-left: 100px; font-weight: 400">
+				  <h6 class="team-cap-4">
 					IT Operation
 				  </h6>
 				</div>
@@ -193,33 +201,39 @@
 			</div>
 			<div class="container" style="height: 20px; background-color: #e7e6e1;"></div>
 		  </section>
+		  <!-- END TEAM -->
+
+		  <!-- SUPPORTED -->
 		  <section id="team">
 			<div class="container" style="height: 20px;"></div>
-			<h2 style="font-size: 90px; margin-top: 10px; text-align: center;">
+			<h2 class="sup">
 			  SUPPORT BY 
 			</h2>
 			<div class="container" style="margin-top: 150px; margin-bottom: 100px;">
-				<div class="row" style="margin-left: 6z0px;">
+				<div class="row sup-row">
 					<div class="col">
-						<img src="{{ url_for('static',filename='img/sup 1.png')}}" style="width: 200px; height: 190px;" alt="" srcset="">
+						<img class="col-satu" src="{{ url_for('static',filename='img/sup 1.png')}}" alt="" srcset="">
 					</div>
 					<div class="col">
-						<img src="{{ url_for('static',filename='img/sup 2.png')}}" style="width: 200px; height: 190px;" alt="" srcset="">
+						<img class="col-satu col-dua" src="{{ url_for('static',filename='img/sup 2.png')}}" alt="" srcset="">
 					</div>
 					<div class="col">
-						<img src="{{ url_for('static',filename='img/sup 3.png')}}" style="width: 200px; height: 190px;" alt="" srcset="">
+						<img class=" col-satu" src="{{ url_for('static',filename='img/sup 3.png')}}" alt="" srcset="">
 					</div>
 					<div class="col">
-						<img src="{{ url_for('static',filename='img/sup 4.png')}}" style="width: 200px; height: 190px;" alt="" srcset="">
+						<img class="col-satu col-dua" src="{{ url_for('static',filename='img/sup 4.png')}}" alt="" srcset="">
 					</div>
 				</div>
 			</div>
 			</div>
 			<div class="container" style="height: 20px; background-color: #e7e6e1;"></div>
 		  </section>
+		  <!-- END SUPPORT -->
+
+		  <!-- FOOTER -->
 		  <footer class="fixed-bottom">
 			<div class="chat">
-				<p class="kopi" style="background-color: #314e52; font-size: 16px; text-align:center; margin-top:65px; color: white;">CopyRight&copy; Kelompok 4</p>
+				<p class="kopi">CopyRight&copy; Kelompok 4</p>
 				<button class="chat-btn">
 					<!-- used google material icon for comment -->
 					<i class="material-icons">
@@ -251,8 +265,9 @@
 					</div>
 				</div>
 			  </div>
-			  
 		  </footer>
+		  <!-- END FOOTER -->
+
 		<!-- javascript libraries -->
 		<script type="text/javascript" src="static/main.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
