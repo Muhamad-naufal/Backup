@@ -46,3 +46,186 @@ h1{
     color: white;
     width: 100px;
 }
+.helo5{
+    width: 385px; 
+    margin-left: 215px;
+}
+@media screen and (max-width: 768px) {
+    .helo30{
+        margin-right: 990px;
+        margin-left: -200px;
+    }
+    .judul{
+        margin-top: 90px;
+    }
+    .pred {
+        margin-top: -80px;
+        margin-left: 500px;
+    }
+    .back{
+        margin-left: -30px;
+    }
+    .helo {
+        max-width: -90px;
+        margin-right: 300px;
+        margin-left: -200px;
+    }
+    .helo13{
+        margin-top: 0px;
+    }
+    .helo4 {
+        margin-top: -1010px;
+        margin-right: -90px;
+        margin-left: -20px;
+    }
+    .helo11{
+        max-width: 210px;
+    }
+    .helo12{
+        max-width: 900px;
+        margin-right: 990;
+    }
+    .hais{
+        margin-right: -90px;
+    }
+    .helo5{
+        margin-right: 990px;
+        margin-left: 190px;
+        max-width: 2100px;
+    }
+    .helo6{
+        margin-left: -10px;
+        max-width: 2000px;
+    }
+    .helo1 {
+        margin-top: 10px;
+    }
+    .helo3{
+        margin-right: -90px;
+        margin-left: -225px;
+    }
+    .helo7{
+        max-width: 2000px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .helo31{
+        margin-left: -10pxs;
+    }
+    .helo30{
+        margin-left: -220px;
+    }
+    .helo27{
+        margin-left: -30px;
+    }
+    .helo24{
+        margin-left: -35px;
+    }
+    .helo22{
+        margin-top: 90px;
+        margin-left: -240px;
+        margin-right: 9990px;
+    }
+    .helo20{
+        margin-right: -40px;
+    }
+    .helo21{
+        margin-right: 990px;
+        margin-left: -20px;
+    }
+    .helo19{
+        margin-right: -190px;
+    }
+    .helo18{
+        margin-left: -20px;
+    }
+    .helo15{
+        margin-left: -20px;
+    }
+    .helo17{
+        margin-top: 0px;
+    }
+    .helo16{
+        max-width: 0px;
+    }
+    .judul{
+        margin-top: 95px;
+        margin-bottom: -40px;
+        font-size: 15px;
+    }
+    .pred {
+        margin-top: -80px;
+        margin-left: 170px;
+    }
+    .hai{
+        margin-left: -20px;
+    }
+    .back{
+        margin-left: -30px;
+    }
+    .helo29 {
+        margin-right: 90px
+    
+    }
+    .helo13{
+        margin-left: -10px;
+        margin-top: 0px;
+    }
+    .helo4 {
+        margin-top: -1010px;
+        margin-right: -90px;
+        margin-left: -20px;
+    }
+    .helo11{
+        max-width: 260px;
+    }
+    .helo12{
+        margin-left: -10px;
+        max-width: 900px;
+        margin-right: 990;
+    }
+    .hais{
+        margin-left: -80px;
+        margin-right: -120px;
+    }
+    .helo5{
+        margin-right: 990px;
+        margin-left: 190px;
+        max-width: 300px;
+    }
+    .helo7{
+        max-width: 260px;
+    }
+    .helo28{
+        max-width: 60px;
+    }
+    .helo6{
+        margin-left: -10px;
+        max-width: 260px;
+    }
+    .helo1 {
+        margin-right: 90px;
+        margin-left: 18px;
+        margin-top: 10px;
+    }
+    .helo3{
+        margin-right: 100px;
+        margin-left: -245px;
+    }
+    .helo7{
+        max-width: 260px;
+    }
+    .helo25{
+        margin-left: 90px;
+        margin-right: -150px;
+    }
+    .helo26{
+        margin-right: 9190px;
+        max-width: 300px;
+        margin-bottom: 0px;
+    }
+    .helo9{
+        margin-right: 990px;
+        max-width: 260px;
+    }
+}
